@@ -1,4 +1,4 @@
 from django.contrib import admin
-from . models import Employee, EmployeeAdmin
+from . models import Bank_loan, Bank_loanAdmin
 
-admin.site.register(Employee,EmployeeAdmin)
+admin.site.register(Bank_loan,Bank_loanAdmin)
